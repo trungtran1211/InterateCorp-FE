@@ -102,6 +102,7 @@ header {
   box-shadow: rgba(69, 188, 255, 0.24) 0px 7px 29px 0px;
   width: 168px;
   display: none;
+  background: var(--color-white);
 }
 .main-menu ul ul li {
   padding: 8px 19px;
