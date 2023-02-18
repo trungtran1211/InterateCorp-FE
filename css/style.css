@@ -200,12 +200,15 @@ footer {
   gap: 0 16px;
   margin-bottom: 12px;
 }
+.ft-content img {
+  object-fit: contain;
+}
 .ft-content span {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 17px;
+  line-height: 23px;
 
   color: #505050;
 }

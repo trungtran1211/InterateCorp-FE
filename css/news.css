@@ -44,3 +44,107 @@
     bottom: 23px;
     right: -18px;
 }
+.list-news {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px 30px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+}
+.news-item {
+    max-width: 277px;
+    background: #FFFFFF;
+    box-shadow: 0px 18px 48px rgba(23, 99, 225, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.news-item:hover {
+    box-shadow: 0px 4px var(--color-darkblue);
+}
+.news-img {
+    border-radius: 8px 8px 0px 0px;
+}
+.news-img img {
+    width: 100%;
+    height: 152px;
+    vertical-align: top;
+    border-radius: 8px 8px 0px 0px;
+}
+.news-content {
+    padding: 16px 18px 18px;
+}
+.news-day {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+
+    color: #6C757D;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+.news-title {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+
+    color: var(--color-darkblue);
+    margin-bottom: 8px;
+}
+.news-details {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #495057;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.wrap-paged {
+    margin-bottom: 48px;
+}
+.wrap-paged ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 18px;
+}
+.wrap-paged ul li a{
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.3428px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #1E293B;
+}
+.wrap-paged ul li img {
+    vertical-align: top;
+}
+.wrap-paged ul li:first-child {
+    margin-right: 28px;
+}
+.wrap-paged ul li:last-child {
+    margin-left: 28px;
+}
+
+.active {
+    width: 32.69px;
+    height: 32.69px;
+
+    background: #1763E1;
+    border: 0.817141px solid #E5E7EB;
+    border-radius: 816.324px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF !important;
+}
