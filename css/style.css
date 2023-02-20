@@ -31,7 +31,8 @@ a {
   --color-blue: #305EAB;
   --color-lightblue: #E9F1FF;
   --color-grey: #A1A1A1;
-  --color-darkgrey: #505050
+  --color-darkgrey: #505050;
+  --color-lightgrey: #495057;
 }
 .container {
   max-width: 1200px;
@@ -201,7 +202,7 @@ footer {
   margin-bottom: 12px;
 }
 .ft-content img {
-  object-fit: contain;
+  object-fit: contain; 
 }
 .ft-content span {
   font-family: 'Inter';
