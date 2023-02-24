@@ -1,7 +1,7 @@
 function contentSwitcher(settings) {
     var settings = {
       contentClass: '.content',
-      navigationId: '#blog__listpost-nav'
+      navigationId: '#navigation'
     };
     $(settings.contentClass).not(':first').hide();
     $(settings.navigationId).find('li:first').addClass('active');
@@ -20,13 +20,9 @@ function contentSwitcher(settings) {
 
 
   function sv(elem) {
-    // get all 'a' elements
     var a = document.getElementsByTagName('li');
-    // loop through all 'a' elements
     for (i = 0; i < a.length; i++) {
-        // Remove the class 'active' if it exists
         a[i].classList.remove('active')
     }
-    // add 'active' classs to the element that was clicked
     elem.classList.add('active');
 }
