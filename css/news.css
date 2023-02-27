@@ -140,11 +140,11 @@
     width: 32.69px;
     height: 32.69px;
 
-    background: #1763E1;
+    background: var(--color-darkblue);
     border: 0.817141px solid #E5E7EB;
     border-radius: 816.324px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FFFFFF !important;
+    color: var(--color-white) !important;
 }
