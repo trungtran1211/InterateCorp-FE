@@ -155,3 +155,14 @@
 .partner__2-dt h2:hover {
     box-shadow: 0px 4px var(--color-darkblue);
 }
+.partner__3-intro {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+
+    color: var(--color-darkgrey);
+
+}
