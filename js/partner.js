@@ -4,6 +4,10 @@ if (dynu1.matches) {
     effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
       coverflowEffect: {
         rotate: 0,
         stretch: 290,
@@ -25,6 +29,10 @@ if (dynu2.matches) {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
     coverflowEffect: {
       rotate: 0,
       stretch: 0,
@@ -46,5 +54,57 @@ if (dynu2.matches) {
     }
   });
 }
-
   
+// Slider DTStudio
+var swiper = new Swiper(".swiper_dt", {
+  slidesPerView: 3,
+  centeredSlides: true,
+  spaceBetween: 30,
+  grabCursor: true,
+  loop: true,
+  speed: 800,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.4,
+      spaceBetween: 20,
+    },
+    768: {
+      slidesPerView: 2
+    },
+    1024: {
+      slidesPerView: 3
+    }
+  }
+});
+
+// Slider Permate
+
+var swiper = new Swiper(".swiper_pm", {
+  speed: 1000,
+  loop: true,
+  effect: 'slide',
+  centeredSlides: true,
+  grabCursor: true,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.3,
+      spaceBetween: 0,
+    },
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 5,
+    },
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: -10,
+    },
+  }
+});

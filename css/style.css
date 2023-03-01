@@ -228,3 +228,32 @@ footer {
 
   color: #E9F1FF;
 }
+
+/* =======button============== */
+.button-main {
+  text-align: center;
+}
+.main-btn {
+  display: inline-block;
+  padding: 8px 18px;
+  font-family: var(--font-inter);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+
+  color: var(--color-darkblue);
+  background: #FFFFFF;
+  border: 1px solid var(--color-darkblue);
+  border-radius: 20px;
+  
+}
+.main-btn:hover {
+  background: #1763E1;
+  color: #FFFFFF;
+  transition: background .5s linear;
+}
+.main-btn i {
+  margin-left: 4px;
+  color: #a1c0f3;
+}
