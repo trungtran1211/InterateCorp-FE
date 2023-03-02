@@ -4,6 +4,7 @@ if (dynu1.matches) {
     effect: 'coverflow',
       grabCursor: true,
       centeredSlides: true,
+      slidesPerView: 2,
       autoplay: {
         delay: 2500,
         disableOnInteraction: false,
@@ -16,11 +17,6 @@ if (dynu1.matches) {
         slideShadows: true,
       },
     loop: true,
-    breakpoints: {
-      1440: {
-        slidesPerView: 2
-      }
-    }
   });
 }
 const dynu2 = window.matchMedia('(max-width: 1025px)')
@@ -108,3 +104,56 @@ var swiper = new Swiper(".swiper_pm", {
     },
   }
 });
+
+
+// partner 5
+const may = window.matchMedia('(min-width: 1440px)')
+if (may.matches) {
+  var swiper = new Swiper(".swiper_may", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 2,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 97,
+      depth: 100,
+      modifier: 2,
+    },
+    loop: true,
+  });
+}
+const may2 = window.matchMedia('(max-width: 1024px)')
+if (may2.matches) {
+  var swiper = new Swiper(".swiper_may", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    coverflowEffect: {
+      rotate: 0,
+      stretch: 0,
+      depth: 200,
+      modifier: 2,
+    },
+    loop: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 1.3
+      },
+      768: {
+        slidesPerView: 1.5
+      },
+      1024: {
+        slidesPerView: 1.8
+      },
+    }
+  });
+}
