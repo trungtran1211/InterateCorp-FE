@@ -1,0 +1,36 @@
+.career__1 {
+    padding: 28px 0 48px;
+}
+
+.career__1 h2 {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #4950576b;
+}
+.career__1 h2 span {
+    font-family: var(--font-inter);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+
+    color: var(--color-darkblue);
+    margin-left: 6px;
+}
+/* ===============career__2================ */
+
+.career__2 {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#numberSlides{
+    position: absolute; 
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+  }

@@ -78,7 +78,6 @@ var swiper = new Swiper(".swiper_dt", {
 });
 
 // Slider Permate
-
 var swiper = new Swiper(".swiper_pm", {
   speed: 1000,
   loop: true,

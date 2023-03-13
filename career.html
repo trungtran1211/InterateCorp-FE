@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./images/main/favicon.png" type="image/x-icon" />
     <link href="https://cdn.staticaly.com/gh/hung1001/font-awesome-pro-v6/44659d9/css/all.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/contact.css">
+    <link rel="stylesheet" href="./css/career.css">
      
 </head>
 <body>
@@ -53,79 +54,23 @@
         </div>
     </header>
     <main>
-        <div class="contact__1">
+        <div class="career__1">
             <div class="container">
-                <h2>Trang chủ <i class="fa-light fa-angle-right"></i><span>liên hệ</span></h2>
+                <h2>Trang chủ <i class="fa-light fa-angle-right"></i><span>tuyển dụng</span></h2>
             </div>
         </div> 
-        <div class="contact__2">
-            <div class="container">
-                <div class="contact__2-container">
-                    <div class="contact__2-left">
-                        <h2 class="contact__2-heading">Trụ sở chính</h2>
-                        <ul>
-                            <li><img src="./images/contact/phone.png" alt="">+84 707 162 222</li>
-                            <li><img src="./images/contact/mail.png" alt="">hr@interatecorp.com</li>
-                            <li><img src="./images/contact/map.png" alt="">Lô 05 - Lô 06 Khu A2, Nguyễn Sinh Sắc, quận Liên Chiểu, Đà Nẵng</li>
-                        </ul>
-                        <div class="contact__2-listsocial">
-                            <a href="#">
-                                <img src="./images/contact/fb.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./images/contact/in.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./images/contact/yt.png" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./images/contact/tt.png" alt="">
-                            </a>
-                        </div>
+        <div class="career__2">
+            <div class="career__2-top">
+                <div class="swiper career">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide"><img src="./images/career/banner1.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/career/banner2.png" alt=""></div>
+                      <div class="swiper-slide"><img src="./images/career/banner3.png" alt=""></div>
                     </div>
-                    <div class="contact__2-right">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d677.7205712637475!2d108.1634088735739!3d16.077602568054054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3142198ccbaf8a09%3A0xe554310348cee5bb!2sInterate%20Corp%20Vi%E1%BB%87t%20Nam!5e0!3m2!1svi!2s!4v1676534021944!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="presSlidesActive">0</div>
                 </div>
             </div>
-        </div>
-        <div class="contact__3">
-             <div class="container">
-                <div class="contact__3-box1">
-                    <h2 class="contact__3-heading">CƠ HỘI NGHỀ NGHIỆP</h2>
-                    <p>Nếu bạn muốn liên hệ với chúng tôi về cơ hội việc làm, vui lòng xem thêm các vị trí đang tuyển dụng và gửi CV cho chúng tôi qua</p>
-                    <div class="box1-mail">
-                        <img src="./images/contact/mail2.png" alt="">
-                        <span>tuyendung@interatecorp.com</span>
-                    </div>
-                </div>
-                <div class="contact__3-box2">
-                    <h2 class="contact__3-heading">CÁC SẢN PHẨM & CÔNG TY THÀNH VIÊN</h2>
-                    <p>Để tìm hiểu thêm về Các sản phẩm & công ty thành viên của Interate Corp, vui lòng xem thêm bên dưới:</p>
-                    <div class="box3_listcompany">
-                        <div class="company">
-                            <a href="#">
-                                <img src="./images/contact/logo1.png" alt="">
-                            </a>
-                        </div>
-                        <div class="company">
-                            <a href="#">
-                                <img src="./images/contact/logo2.png" alt="">
-                            </a>
-                        </div>
-                        <div class="company">
-                            <a href="#">
-                                <img src="./images/contact/logo3.png" alt="">
-                            </a>
-                        </div>
-                        <div class="company">
-                            <a href="#">
-                                <img src="./images/contact/logo4.png" alt="">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-             </div>
         </div>
     </main>
     <footer>
@@ -179,5 +124,11 @@
             <span>Copyright © 2023 InterateCorp</span>
         </div>
     </footer>
+    <script
+    type="text/javascript"
+    src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js"></script>
+    <script src="./js/career.js"></script>
 </body>
 </html>
